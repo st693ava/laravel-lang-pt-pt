@@ -1,0 +1,23 @@
+{
+    "name": "gook-ws/laravel-lang-pt-pt",
+    "description": "Ficheiros de linguagem (pt-PT) para Laravel >= 8",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Pedro Saraiva",
+        "email": "geral@pedrosaraiva.pt"
+    }],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GookWs\\LaravelLangPtPT\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GookWs\\LaravelLangPtPT\\LaravelLangPtPTServiceProvider"
+            ]
+        }
+    }
+}
