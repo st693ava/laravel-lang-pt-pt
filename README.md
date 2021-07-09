@@ -5,11 +5,11 @@
 
 1. Instalar pacote
   ```shell
-  $ composer require st693ava/laravel-lang-pt-pt --dev
+  $ composer require st693ava/languages --dev
   ```
 2. Publique as traduções
   ```shell
-  $ php artisan vendor:publish --tag=laravel-lang-pt-pt
+  $ php artisan vendor:publish --tag=languages
   ```
 3. Configure o Framework para utilizar 'pt_PT' como linguagem padrão
   ```

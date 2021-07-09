@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'failed' => 'Essas credenciais não foram encontradas em nossos registros.',
-    'password' => 'A senha informada está incorreta.',
-    'throttle' => 'Muitas tentativas de login. Tente novamente em :seconds segundos.',
+    'failed' => 'Credenciais inválidas.',
+    'password' => 'Senha inválida.',
+    'throttle' => 'Excedeu o nº máximo de tentativas para iniciar sessão. Tente novamente em :seconds segundos.',
 
 ];

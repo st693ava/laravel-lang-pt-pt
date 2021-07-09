@@ -1,7 +1,7 @@
 <?php
-namespace St693ava\LaravelLangPtPT;
+namespace St693ava\languages;
 use Illuminate\Support\ServiceProvider;
-class LaravelLangPtPTServiceProvider extends ServiceProvider
+class LanguagesServiceProvider extends ServiceProvider
 {
     /**
     * Publishes translation files.
@@ -13,6 +13,6 @@ class LaravelLangPtPTServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/pt_PT.json' => resource_path('lang/pt_PT.json'),
             __DIR__ . '/pt_PT' => resource_path('lang/pt_PT'),
-        ], 'laravel-lang-pt-pt');
+        ], 'languages');
     }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "st693ava/laravel-lang-pt-pt",
+    "name": "st693ava/languages",
     "description": "Ficheiros de linguagem (pt-PT) para Laravel >= 8",
     "license": "GPL-3.0-or-later",
     "authors": [{
@@ -10,13 +10,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "St693ava\\LaravelLangPtPT\\": "src/"
+            "St693ava\\Languages\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "St693ava\\LaravelLangPtPT\\LaravelLangPtPTServiceProvider"
+                "St693ava\\Languages\\LanguagesServiceProvider"
             ]
         }
     }
