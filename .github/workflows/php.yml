@@ -14,7 +14,7 @@ jobs:
       run: composer create-project --prefer-dist laravel/laravel blog
 
     - name: Install laravel-lang-pt-PT
-      run: composer require gook-ws/laravel-lang-pt-PT
+      run: composer require st693ava/laravel-lang-pt-PT
       working-directory: ./blog
 
     - name: Publish translation

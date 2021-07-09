@@ -1,5 +1,5 @@
 <?php
-namespace GookWs\LaravelLangPtPT;
+namespace St693ava\LaravelLangPtPT;
 use Illuminate\Support\ServiceProvider;
 class LaravelLangPtPTServiceProvider extends ServiceProvider
 {

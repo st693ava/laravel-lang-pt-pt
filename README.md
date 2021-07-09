@@ -5,7 +5,7 @@
 
 1. Instalar pacote
   ```shell
-  $ composer require gook-ws/laravel-lang-pt-pt --dev
+  $ composer require st693ava/laravel-lang-pt-pt --dev
   ```
 2. Publique as traduções
   ```shell
